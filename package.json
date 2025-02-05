@@ -1,0 +1,23 @@
+{
+  "name": "lrnode",
+  "version": "1.0.0",
+  "description": "node thing",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node src/index.ts and node dist/index.js",
+    "build": "tsc",
+    "serve": "node dist/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/express": "^5.0.0",
+    "@types/node": "^22.13.1",
+    "express": "^4.21.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.7.3"
+  },
+  "dependencies": {
+    "tsc": "^2.0.4"
+  }
+}
